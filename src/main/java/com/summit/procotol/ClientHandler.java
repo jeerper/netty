@@ -38,7 +38,7 @@ public class ClientHandler extends ChannelHandlerAdapter {
             return temp[1];
         }
         public static String transferTo(String message){
-            message="HEADcontent-length:" + message.length() + " HEADBODY " + message + "BODY";
+            message = "HEADcontent-length:" + message.length() + "HEADBODY" + message + "BODY";
             return message;
         }
 
